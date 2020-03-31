@@ -1,0 +1,51 @@
+﻿<!DOCTYPE >
+<html>
+<!--
+Tablas de Multiplicar"
+-->
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Tablas de Multiplicar</title>
+	<link rel="stylesheet" type="text/css" href="css/practicas.css">
+	</head>
+	<body>
+		<script language="javascript" src="js/varios.js"></script>
+		<header><h1>Tabla de Multiplicar</h1></header>
+		<form id="formulario">
+			Selecciona que n&uacute;mero de tabla
+			<select name="opTabla" id="opTabla">
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+			</select>
+
+			<p><input class="boton" type="button" value="Realizar"
+						onclick="muestra(opTabla.value, tabla, document.getElementById('contenido'));"/>
+			</p>
+
+			<div id="contenido" style="visibility:hidden">
+				
+				<table id="tabla" border="2" >
+					<thead>
+						<th>Operaci&oacute;n</th>
+						<th>Resultado</th>
+						<th>Calificacion</th>
+					</thead>
+				</table>
+				<input  class="boton" type="button" value="Calificar Ejercicio" onclick="califica(opTabla.value, tabla);"/>
+				<label id="resul">Calificación: </label>
+			</div>
+		</form>
+
+		<form action="index.html">
+			<button class="boton">Regresar</button>
+		</form>
+	</body>
+</html>

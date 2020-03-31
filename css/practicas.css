@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Comic Neue', cursive;
+    background: rgb(230, 230, 250);
+}
+
+#botones{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boton{
+    padding: 10px;
+    width: 300px;
+    height: 90px;
+    margin: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    background: rgb(138, 43, 226);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.boton2{
+    padding: 10px;
+    width: 200px;
+    height: 70px;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    background: rgb(138, 43, 226);
+    cursor: pointer;
+    border-radius: 10px;
+} 
+.boton:hover{
+    background: rgb(57, 128, 221);
+}
+ header{
+    width: 100%;
+    text-align: center;
+ }
+
+h1{
+    color:rgb(102, 51, 153);
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    color:rgb(138, 43, 226);
+    width: 50%;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+#resul{
+    width: 50%;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+p{
+    display: inline;
+    color: rgb(72, 61, 139);
+    font-weight: bolder;
+}
+
+.rfc{
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+/* Estilos para Tablas de multiplicar */
+
+#formulario{
+    font-size: 40px;
+    color:rgb(138, 43, 226);
+    margin-bottom: 0px;
+}
+
+select{
+    font-size: 25px;
+    color: rgb(138, 43, 226);
+}
+
+table{
+    font-size: 25px;
+    color: rgb(37, 131, 253);
+    position: relative;
+    margin-top: 50px;
+    left: 50%;
+    transform: translateX(-50%);    
+}
+
+#contenido{
+    text-align: center;
+}
+
+/* Estilos para Zodiaco*/
+
+#contenedor{
+    position: relative;
+    height: 0vh;
+    text-align: center;
+}
+
+form{
+    position: relative;
+    top: 20%;
+    display: inline-block;
+}
+
+#fecha{
+    font-size: 20px;
+    color: rgb(138, 43, 226);
+}
+
+label{
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(138, 43, 226);
+}
+
+#miSigno{
+    width: 100vw;
+    height: 80vh;
+    font-size: 50px;
+    color: rgb(138, 43, 226);
+    text-align: center;
+}
+
+#signo{
+    position: relative;
+    top: 50%;
+    transform: translateY(-80%);
+    margin: 0px;
+}
+
+#color{
+    margin: 0px;
+    position: relative;
+    top: 45%;
+    background: white;
+    color: white;
+}

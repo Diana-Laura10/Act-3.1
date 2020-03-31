@@ -1,0 +1,26 @@
+<!DOCTYPE>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="PQG">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Control submit por evento formulario</title>
+<script type="text/javascript" src="js/RFC.js"></script>
+<link rel="stylesheet" type="text/css" href="css/practicas.css">
+</head>
+<body>
+	<header><h1>Valida tu RFC</h1></header>
+	<h2 id="resul">Ingresa tu RFC y da clic en el boton para poder iniciar</h2>
+	<form class="rfc">
+		RFC <input class="rfc" type="text" name="txtRFC" maxlength="13" size="15"/>
+		<br>
+		<button class="boton" type="button" onclick="valida(txtRFC);">Ejecuta Scrip</button>
+	</form>
+
+	<form action="index.html">
+    <button class="boton" >Regresar</button>
+    </form>
+
+</body>
+</html>
